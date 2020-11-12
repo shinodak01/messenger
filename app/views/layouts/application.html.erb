@@ -4,12 +4,22 @@
     <title>Messenger</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header>
+      <div class="header">
+        <div class="top">
+          <a href="#">Messenger</a>
+        </div>
+        <div class="my-page">
+          <a href="#">マイページ</a>
+        </div>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
