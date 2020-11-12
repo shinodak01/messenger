@@ -17,3 +17,16 @@
  * {
    box-sizing: border-box;
  }
+
+ .header {
+   height: 30px;
+   background-color: #253141;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .header a {
+   text-decoration: none;
+   color: #FAFAFA;
+ }
